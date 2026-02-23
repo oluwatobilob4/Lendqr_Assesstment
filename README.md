@@ -1,44 +1,96 @@
-# Lendqr_Assesstment
-Capital Credit – Adjutor API Automation (Task 2)  This repository contains automated API test scripts created as part of the QA assessment of the Adjutor platform for Capital Cash integration.  The tests were built using Postman and validate:  HTTP status codes  Response messages  Basic response structure validation
+Here’s a clean, styled, professional **GitHub-ready README description** you can paste directly into your repository:
 
-Step 1: Import the Collection
+---
 
-Open Postman
+# 🚀 Capital Credit – Adjutor API Automation (Task 2)
 
-Click Import
+This repository contains automated API test scripts developed as part of the QA assessment of the **Adjutor platform** for integration into the **Capital Cash** application.
 
-Upload NIGERIAN COUNTRY SPECIFIC ENDPOINT.postman_collection.json
+The automation was built using **Postman** and validates:
 
+* ✅ HTTP status codes
+* ✅ Response messages
+* ✅ Basic response structure integrity
 
+The goal of this automation is to ensure endpoint reliability, response consistency, and readiness for production integration.
 
-Step 2: Configure Variables
+---
 
-Go to:
+# 🛠 Setup Guide
 
-Collection → Variables tab
+## Step 1: Import the Collection
 
-Ensure the following variables are set:
+1. Open **Postman**
+2. Click **Import**
+3. Upload the file:
 
-Variable	Description
-base_url	Base API URL
-token(this is the api token to access the endpoints)
+```
+NIGERIAN COUNTRY SPECIFIC ENDPOINT.postman_collection.json
+```
 
+---
 
-Step 3: Run the Collection
+## Step 2: Configure Collection Variables
 
-Click the collection
+Navigate to:
 
-Click Run
+```
+Collection → Variables
+```
 
+Ensure the following variables are properly configured:
 
+| Variable   | Description                       |
+| ---------- | --------------------------------- |
+| `base_url` | Base API URL                      |
+| `token`    | API token used for authentication |
 
-Click Run NIGERIAN COUNTRY SPECIFIC ENDPOINT.postman_collection
+⚠️ The `token` must be a valid API key generated from the app created on Adjutor.
 
+---
 
-Expected Output
+## Step 3: Run the Collection
 
-Validation of HTTP status codes
+1. Select the collection
+2. Click **Run**
+3. Click **Run NIGERIAN COUNTRY SPECIFIC ENDPOINT.postman_collection**
 
-Validation of response messages
+---
 
-Summary showing total tests, passes, and failures
+# 📊 Expected Output
+
+Upon execution, the runner will display:
+
+* ✔ Validation of HTTP status codes
+* ✔ Validation of response messages
+* ✔ Assertion results per endpoint
+* ✔ Execution summary showing:
+
+  * Total tests
+  * Passed tests
+  * Failed tests
+
+---
+
+# 📌 Automation Coverage
+
+The collection includes:
+
+* Authentication handling (via token variable)
+* Automated assertions per request
+* Structured validation for multiple Nigerian country-specific endpoints
+* Error response verification where applicable
+
+---
+
+# 🔍 Purpose of This Automation
+
+This automation demonstrates:
+
+* API response correctness
+* Error handling classification
+* Stability of external endpoints
+* Integration readiness for Capital Cash
+
+---
+
