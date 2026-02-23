@@ -101,17 +101,8 @@
                         "url": {
                           "raw": "https://adjutor.lendsqr.com/v2/verification/bvn/:bvn",
                           "protocol": "https",
-                          "host": [
-                            "adjutor",
-                            "lendsqr",
-                            "com"
-                          ],
-                          "path": [
-                            "v2",
-                            "verification",
-                            "bvn",
-                            ":bvn"
-                          ],
+                          "host": ["adjutor", "lendsqr", "com"],
+                          "path": ["v2", "verification", "bvn", ":bvn"],
                           "variable": [
                             {
                               "key": "bvn",
@@ -146,17 +137,8 @@
                             "url": {
                               "raw": "https://adjutor.lendsqr.com/v2/verification/bvn/:bvn",
                               "protocol": "https",
-                              "host": [
-                                "adjutor",
-                                "lendsqr",
-                                "com"
-                              ],
-                              "path": [
-                                "v2",
-                                "verification",
-                                "bvn",
-                                ":bvn"
-                              ],
+                              "host": ["adjutor", "lendsqr", "com"],
+                              "path": ["v2", "verification", "bvn", ":bvn"],
                               "variable": [
                                 {
                                   "key": "bvn",
@@ -286,13 +268,8 @@
                         },
                         "url": {
                           "raw": "{{base_url}}verification/bvn/:bvn",
-                          "host": [
-                            "{{base_url}}verification"
-                          ],
-                          "path": [
-                            "bvn",
-                            ":bvn"
-                          ],
+                          "host": ["{{base_url}}verification"],
+                          "path": ["bvn", ":bvn"],
                           "variable": [
                             {
                               "key": "bvn",
@@ -320,17 +297,8 @@
                             "url": {
                               "raw": "https://adjutor.lendsqr.com/v2/verification/bvn/:bvn",
                               "protocol": "https",
-                              "host": [
-                                "adjutor",
-                                "lendsqr",
-                                "com"
-                              ],
-                              "path": [
-                                "v2",
-                                "verification",
-                                "bvn",
-                                ":bvn"
-                              ],
+                              "host": ["adjutor", "lendsqr", "com"],
+                              "path": ["v2", "verification", "bvn", ":bvn"],
                               "variable": [
                                 {
                                   "key": "bvn",
@@ -484,14 +452,8 @@
                         },
                         "url": {
                           "raw": "{{base_url}}verification/bvn/:bvn/accounts",
-                          "host": [
-                            "{{base_url}}verification"
-                          ],
-                          "path": [
-                            "bvn",
-                            ":bvn",
-                            "accounts"
-                          ],
+                          "host": ["{{base_url}}verification"],
+                          "path": ["bvn", ":bvn", "accounts"],
                           "variable": [
                             {
                               "key": "bvn",
@@ -526,11 +488,7 @@
                             "url": {
                               "raw": "https://adjutor.lendsqr.com/v2/verification/bvn/:bvn/accounts",
                               "protocol": "https",
-                              "host": [
-                                "adjutor",
-                                "lendsqr",
-                                "com"
-                              ],
+                              "host": ["adjutor", "lendsqr", "com"],
                               "path": [
                                 "v2",
                                 "verification",
@@ -681,14 +639,8 @@
                         },
                         "url": {
                           "raw": "{{base_url}}verification/bvn/:bvn/accounts",
-                          "host": [
-                            "{{base_url}}verification"
-                          ],
-                          "path": [
-                            "bvn",
-                            ":bvn",
-                            "accounts"
-                          ],
+                          "host": ["{{base_url}}verification"],
+                          "path": ["bvn", ":bvn", "accounts"],
                           "variable": [
                             {
                               "key": "bvn",
@@ -716,11 +668,7 @@
                             "url": {
                               "raw": "https://adjutor.lendsqr.com/v2/verification/bvn/:bvn/accounts",
                               "protocol": "https",
-                              "host": [
-                                "adjutor",
-                                "lendsqr",
-                                "com"
-                              ],
+                              "host": ["adjutor", "lendsqr", "com"],
                               "path": [
                                 "v2",
                                 "verification",
@@ -891,14 +839,8 @@
                     },
                     "url": {
                       "raw": "{{base_url}}verification/bvn/{{bvn}}/selfies",
-                      "host": [
-                        "{{base_url}}verification"
-                      ],
-                      "path": [
-                        "bvn",
-                        "{{bvn}}",
-                        "selfies"
-                      ]
+                      "host": ["{{base_url}}verification"],
+                      "path": ["bvn", "{{bvn}}", "selfies"]
                     },
                     "description": "This endpoint allows for real-time verification of an individual's Bank Verification Number (BVN) through the comparison of their photograph and facial features with their BVN record, thereby providing an additional layer of security and accuracy in customer information validation.\n\n#### Request Body\n\n**image** \\* ˢᵗʳⁱⁿᵍ  \nURL of the image to be used for comparison.\n\n#### Path Variables\n\n**bvn** \\*  \nBVN of the person whose face is being verified against the image.\n\n#### Response fields\n\n| Field |\n| --- |\n| **match** ᵇᵒᵒˡᵉᵃⁿ  <br>Indicates if a match was found (e.g., _true_) |\n| **similarity** ᶠˡᵒᵃᵗ  <br>The percentage probability that the images compared are similar. The higher the number, the greater the chance of similarity (e.g., _99.95_) |"
                   },
@@ -919,14 +861,8 @@
                         },
                         "url": {
                           "raw": "{{base_url}}verification/bvn/:bvn/selfies",
-                          "host": [
-                            "{{base_url}}verification"
-                          ],
-                          "path": [
-                            "bvn",
-                            ":bvn",
-                            "selfies"
-                          ],
+                          "host": ["{{base_url}}verification"],
+                          "path": ["bvn", ":bvn", "selfies"],
                           "variable": [
                             {
                               "key": "bvn",
@@ -1058,13 +994,8 @@
                     },
                     "url": {
                       "raw": "{{base_url}}creditbureaus/crc/{{bvn}}",
-                      "host": [
-                        "{{base_url}}creditbureaus"
-                      ],
-                      "path": [
-                        "crc",
-                        "{{bvn}}"
-                      ]
+                      "host": ["{{base_url}}creditbureaus"],
+                      "path": ["crc", "{{bvn}}"]
                     },
                     "description": "This request is used to check the CRC database for the credit history of a customer using their BVN.\n\n#### Path Variables\n\n**bvn** \\*  \nBVN of the customer whoses credit history you aim to fetch"
                   },
@@ -1080,13 +1011,8 @@
                         },
                         "url": {
                           "raw": "{{base_url}}creditbureaus/crc/:bvn",
-                          "host": [
-                            "{{base_url}}creditbureaus"
-                          ],
-                          "path": [
-                            "crc",
-                            ":bvn"
-                          ],
+                          "host": ["{{base_url}}creditbureaus"],
+                          "path": ["crc", ":bvn"],
                           "variable": [
                             {
                               "key": "bvn",
@@ -1197,13 +1123,8 @@
                     "header": [],
                     "url": {
                       "raw": "{{base_url}}creditbureaus/firstcentral/{{bvn}}",
-                      "host": [
-                        "{{base_url}}creditbureaus"
-                      ],
-                      "path": [
-                        "firstcentral",
-                        "{{bvn}}"
-                      ]
+                      "host": ["{{base_url}}creditbureaus"],
+                      "path": ["firstcentral", "{{bvn}}"]
                     },
                     "description": "This request is used to check the CRC database for the credit history of a customer using their BVN.\n\n#### Path Variables\n\n**bvn** \\*  \nBVN of the customer whoses credit history you aim to fetch"
                   },
@@ -1215,13 +1136,8 @@
                         "header": [],
                         "url": {
                           "raw": "{{base_url}}creditbureaus/firstcentral/:bvn",
-                          "host": [
-                            "{{base_url}}creditbureaus"
-                          ],
-                          "path": [
-                            "firstcentral",
-                            ":bvn"
-                          ],
+                          "host": ["{{base_url}}creditbureaus"],
+                          "path": ["firstcentral", ":bvn"],
                           "variable": [
                             {
                               "key": "bvn",
@@ -1356,12 +1272,8 @@
                         },
                         "url": {
                           "raw": "{{base_url}}direct-debit/banks?limit=100&page=1&sort_dir=ASC",
-                          "host": [
-                            "{{base_url}}direct-debit"
-                          ],
-                          "path": [
-                            "banks"
-                          ],
+                          "host": ["{{base_url}}direct-debit"],
+                          "path": ["banks"],
                           "query": [
                             {
                               "key": "limit",
@@ -1396,12 +1308,8 @@
                             },
                             "url": {
                               "raw": "{{base_url}}direct-debit/banks?limit=100&page=1&sort_dir=ASC",
-                              "host": [
-                                "{{base_url}}direct-debit"
-                              ],
-                              "path": [
-                                "banks"
-                              ],
+                              "host": ["{{base_url}}direct-debit"],
+                              "path": ["banks"],
                               "query": [
                                 {
                                   "key": "limit",
@@ -1525,13 +1433,8 @@
                         },
                         "url": {
                           "raw": "{{base_url}}direct-debit/banks/account-lookup",
-                          "host": [
-                            "{{base_url}}direct-debit"
-                          ],
-                          "path": [
-                            "banks",
-                            "account-lookup"
-                          ]
+                          "host": ["{{base_url}}direct-debit"],
+                          "path": ["banks", "account-lookup"]
                         },
                         "description": "This endpoint is used to verify the validity and details of a Nigerian account number.\n\n#### Request Body\n\naccount_number\\* ˢᵗʳⁱⁿᵍ  \nA valid NUBAN account number, which must be 10 digits.\n\nbank_id\\* ⁱⁿᵗᵉᵍᵉʳ  \nThe identifier of the bank to which the account belongs.\n\n#### Response Body\n\n| Field |\n| --- |\n| account_name ˢᵗʳⁱⁿᵍ  <br>Name of the account holder associated with the account number. |\n| bvn ˢᵗʳⁱⁿᵍ  <br>Masked Bank Verification Number (BVN) associated with the account holder (e.g., \"22000000022\" if original is \"22222222222\"). |\n| session_id ˢᵗʳⁱⁿᵍ  <br>Session ID or identifier associated with the account lookup operation. |"
                       },
@@ -1552,13 +1455,8 @@
                             },
                             "url": {
                               "raw": "{{base_url}}direct-debit/banks/account-lookup",
-                              "host": [
-                                "{{base_url}}direct-debit"
-                              ],
-                              "path": [
-                                "banks",
-                                "account-lookup"
-                              ]
+                              "host": ["{{base_url}}direct-debit"],
+                              "path": ["banks", "account-lookup"]
                             }
                           },
                           "status": "OK",
@@ -1733,12 +1631,8 @@
                         },
                         "url": {
                           "raw": "{{base_url}}direct-debit/mandates",
-                          "host": [
-                            "{{base_url}}direct-debit"
-                          ],
-                          "path": [
-                            "mandates"
-                          ]
+                          "host": ["{{base_url}}direct-debit"],
+                          "path": ["mandates"]
                         },
                         "description": "This endpoint allows you to create a mandate on a customer's account. The default mandate type is the emandate, which customers can easily activate by themselves.\n\n#### Request Body Fields\n\n**account_number** \\* ˢᵗʳⁱⁿᵍ  \nCustomer NUBAN account number to create the mandate against.\n\n**phone_number** \\* ˢᵗʳⁱⁿᵍ  \nThe phone number of the customer in the format `08012345678`.  \nThe customer's bank may validate this against their records, so it's best to use the number the customer receives SMS alerts on.\n\n**debit_type** \\* ˢᵗʳⁱⁿᵍ  \nThe type of debit — either `all` or `partial`.\n\n- `all`The system attempts to debit the full amount.\n    \n- `partial`The system attempts to debit any available amount. Useful for loan repayments.\n    \n\n**frequency** ˢᵗʳⁱⁿᵍ  \nThe frequency of debiting the mandate. Options: `daily`, `weekly`, or `monthly`.  \nRequired if recurring debits are being configured.\n\n**bank_id** \\* ⁱⁿᵗᵉᵍᵉʳ  \nThe ID of the customer's bank, obtained from the Get Bank endpoint.\n\n**email** \\* ˢᵗʳⁱⁿᵍ  \nCustomer's email address.\n\n**start_date** \\* ˢᵗʳⁱⁿᵍ  \nThe start date of the mandate. A mandate cannot be triggered for transactions before this date.\n\n**end_date** \\* ˢᵗʳⁱⁿᵍ  \nThe end date of the mandate. The mandate expires on this date.\n\n**narration** \\* ˢᵗʳⁱⁿᵍ  \nThe narration or description of the mandate.\n\n**address** \\* ˢᵗʳⁱⁿᵍ  \nCustomer's address.\n\n**amount** \\* ᶠˡᵒᵃᵗ  \nThe maximum amount that can be debited in a single attempt.  \nThe total amount debited may be a multiple of this, depending on how often the API is called.\n\n**schedule** ᵇᵒᵒˡᵉᵃⁿ  \nIndicates whether the transaction is scheduled (`true`) or not (`false`).\n\n**type** ˢᵗʳⁱⁿᵍ  \nWhich by default is an e-mandate (`emandate`).\n\n#### Response Body\n\n| Field |\n| --- |\n| id ⁱⁿᵗᵉᵍᵉʳ  <br>The ID of the created mandate. |\n| account_number ˢᵗʳⁱⁿᵍ  <br>The account number associated with the mandate. |\n| reference_number ˢᵗʳⁱⁿᵍ  <br>A reference number assigned to the mandate. |\n| account_name ˢᵗʳⁱⁿᵍ  <br>The account name associated with the mandate. |\n| frequency ˢᵗʳⁱⁿᵍ  <br>The frequency of the mandate (e.g., \"daily\", \"weekly\", \"monthly\"). |\n| bvn ˢᵗʳⁱⁿᵍ  <br>The Bank Verification Number (BVN) associated with the mandate. |\n| phone_number ˢᵗʳⁱⁿᵍ  <br>The phone number associated with the mandate. |\n| email ˢᵗʳⁱⁿᵍ  <br>The email address associated with the mandate. |\n| start_date ˢᵗʳⁱⁿᵍ  <br>The start date of the mandate. |\n| end_date ˢᵗʳⁱⁿᵍ  <br>The end date of the mandate. |\n| narration ˢᵗʳⁱⁿᵍ  <br>The narration or description of the mandate. |\n| address ˢᵗʳⁱⁿᵍ  <br>The address associated with the mandate. |\n| amount ˢᵗʳⁱⁿᵍ  <br>The amount associated with the mandate. |\n| status ˢᵗʳⁱⁿᵍ  <br>The status of the mandate (e.g., \"initiated\", \"active\", \"inactive\"). |\n| workflow_status ˢᵗʳⁱⁿᵍ  <br>The workflow status of the mandate. |\n| debit_type ˢᵗʳⁱⁿᵍ  <br>The debit type of the mandate (e.g., \"all\" or \"partial\"). |\n| type ˢᵗʳⁱⁿᵍ  <br>The type of the mandate (e.g., \"emandate\"). |\n| schedule ᵇᵒᵒˡᵉᵃⁿ  <br>Indicates whether the transaction is scheduled (true) or not (false). |\n| created_on ˢᵗʳⁱⁿᵍ  <br>The date and time when the mandate was created in ISO 8601 format. |"
                       },
@@ -1759,12 +1653,8 @@
                             },
                             "url": {
                               "raw": "{{base_url}}direct-debit/mandates",
-                              "host": [
-                                "{{base_url}}direct-debit"
-                              ],
-                              "path": [
-                                "mandates"
-                              ]
+                              "host": ["{{base_url}}direct-debit"],
+                              "path": ["mandates"]
                             }
                           },
                           "status": "Created",
@@ -2017,12 +1907,8 @@
                         "header": [],
                         "url": {
                           "raw": "{{base_url}}direct-debit/mandates?reference_number={{reference_number}}",
-                          "host": [
-                            "{{base_url}}direct-debit"
-                          ],
-                          "path": [
-                            "mandates"
-                          ],
+                          "host": ["{{base_url}}direct-debit"],
+                          "path": ["mandates"],
                           "query": [
                             {
                               "key": "reference_number",
@@ -2040,12 +1926,8 @@
                             "header": [],
                             "url": {
                               "raw": "{{base_url}}direct-debit/mandates?reference_number={{reference_number}}",
-                              "host": [
-                                "{{base_url}}direct-debit"
-                              ],
-                              "path": [
-                                "mandates"
-                              ],
+                              "host": ["{{base_url}}direct-debit"],
+                              "path": ["mandates"],
                               "query": [
                                 {
                                   "key": "reference_number",
@@ -2146,12 +2028,8 @@
                         "header": [],
                         "url": {
                           "raw": "{{base_url}}direct-debit/transactions?limit=10&page=1",
-                          "host": [
-                            "{{base_url}}direct-debit"
-                          ],
-                          "path": [
-                            "transactions"
-                          ],
+                          "host": ["{{base_url}}direct-debit"],
+                          "path": ["transactions"],
                           "query": [
                             {
                               "key": "limit",
@@ -2173,12 +2051,8 @@
                             "header": [],
                             "url": {
                               "raw": "{{base_url}}direct-debit/transactions?limit=10&page=1",
-                              "host": [
-                                "{{base_url}}direct-debit"
-                              ],
-                              "path": [
-                                "transactions"
-                              ],
+                              "host": ["{{base_url}}direct-debit"],
+                              "path": ["transactions"],
                               "query": [
                                 {
                                   "key": "limit",
@@ -2278,12 +2152,8 @@
                         "header": [],
                         "url": {
                           "raw": "{{base_url}}direct-debit/transactions?reference=DD-cU26qsO05mGCSGn",
-                          "host": [
-                            "{{base_url}}direct-debit"
-                          ],
-                          "path": [
-                            "transactions"
-                          ],
+                          "host": ["{{base_url}}direct-debit"],
+                          "path": ["transactions"],
                           "query": [
                             {
                               "key": "reference",
@@ -2301,12 +2171,8 @@
                             "header": [],
                             "url": {
                               "raw": "{{base_url}}direct-debit/transactions?reference=DD-WCo3KTTUn1dZgAV",
-                              "host": [
-                                "{{base_url}}direct-debit"
-                              ],
-                              "path": [
-                                "transactions"
-                              ],
+                              "host": ["{{base_url}}direct-debit"],
+                              "path": ["transactions"],
                               "query": [
                                 {
                                   "key": "reference",
@@ -2476,13 +2342,8 @@
                         ],
                         "url": {
                           "raw": "{{base_url}}direct-debit/transactions/stats",
-                          "host": [
-                            "{{base_url}}direct-debit"
-                          ],
-                          "path": [
-                            "transactions",
-                            "stats"
-                          ]
+                          "host": ["{{base_url}}direct-debit"],
+                          "path": ["transactions", "stats"]
                         },
                         "description": "Retrieves the status of transactions associated with the API key.\n\n#### Response Body \n\n| Field |\n| --- | \n| **status** ˢᵗʳⁱⁿᵍ <br>The status of the mandate transactions. |\n| **count** ⁱⁿᵗᵉᵍᵉʳ <br>The number of transactions with the given status. |"
                       },
@@ -2500,13 +2361,8 @@
                             ],
                             "url": {
                               "raw": "{{base_url}}direct-debit/transactions/stats",
-                              "host": [
-                                "{{base_url}}direct-debit"
-                              ],
-                              "path": [
-                                "transactions",
-                                "stats"
-                              ]
+                              "host": ["{{base_url}}direct-debit"],
+                              "path": ["transactions", "stats"]
                             }
                           },
                           "status": "OK",
@@ -2613,9 +2469,7 @@
                         },
                         "url": {
                           "raw": "{{webhookUrl}}",
-                          "host": [
-                            "{{webhookUrl}}"
-                          ]
+                          "host": ["{{webhookUrl}}"]
                         }
                       },
                       "response": []
@@ -2673,9 +2527,7 @@
                         },
                         "url": {
                           "raw": "{{webhookUrl}}",
-                          "host": [
-                            "{{webhookUrl}}"
-                          ]
+                          "host": ["{{webhookUrl}}"]
                         }
                       },
                       "response": []
@@ -2730,12 +2582,8 @@
                     "header": [],
                     "url": {
                       "raw": "{{base_url}}decisioning/models",
-                      "host": [
-                        "{{base_url}}decisioning"
-                      ],
-                      "path": [
-                        "models"
-                      ]
+                      "host": ["{{base_url}}decisioning"],
+                      "path": ["models"]
                     },
                     "description": "This endpoint fetches all the decision models that have been configured for your profile. This would allow you to programmatically iterate and select."
                   },
@@ -2783,14 +2631,8 @@
                     "header": [],
                     "url": {
                       "raw": "{{base_url}}decisioning/models/:id/settings",
-                      "host": [
-                        "{{base_url}}decisioning"
-                      ],
-                      "path": [
-                        "models",
-                        ":id",
-                        "settings"
-                      ],
+                      "host": ["{{base_url}}decisioning"],
+                      "path": ["models", ":id", "settings"],
                       "variable": [
                         {
                           "key": "id",
@@ -2927,13 +2769,8 @@
                     },
                     "url": {
                       "raw": "{{base_url}}decisioning/models/:id",
-                      "host": [
-                        "{{base_url}}decisioning"
-                      ],
-                      "path": [
-                        "models",
-                        ":id"
-                      ],
+                      "host": ["{{base_url}}decisioning"],
+                      "path": ["models", ":id"],
                       "variable": [
                         {
                           "key": "id",
@@ -2960,13 +2797,8 @@
                         },
                         "url": {
                           "raw": "{{base_url}}decisioning/models/:id",
-                          "host": [
-                            "{{base_url}}decisioning"
-                          ],
-                          "path": [
-                            "models",
-                            ":id"
-                          ],
+                          "host": ["{{base_url}}decisioning"],
+                          "path": ["models", ":id"],
                           "variable": [
                             {
                               "key": "id",
@@ -3107,17 +2939,8 @@
                 "url": {
                   "raw": "https://adjutor.lendsqr.com/v2/verification/bvn/:bvn",
                   "protocol": "https",
-                  "host": [
-                    "adjutor",
-                    "lendsqr",
-                    "com"
-                  ],
-                  "path": [
-                    "v2",
-                    "verification",
-                    "bvn",
-                    ":bvn"
-                  ],
+                  "host": ["adjutor", "lendsqr", "com"],
+                  "path": ["v2", "verification", "bvn", ":bvn"],
                   "variable": [
                     {
                       "key": "bvn",
@@ -3152,17 +2975,8 @@
                     "url": {
                       "raw": "https://adjutor.lendsqr.com/v2/verification/bvn/:bvn",
                       "protocol": "https",
-                      "host": [
-                        "adjutor",
-                        "lendsqr",
-                        "com"
-                      ],
-                      "path": [
-                        "v2",
-                        "verification",
-                        "bvn",
-                        ":bvn"
-                      ],
+                      "host": ["adjutor", "lendsqr", "com"],
+                      "path": ["v2", "verification", "bvn", ":bvn"],
                       "variable": [
                         {
                           "key": "bvn",
@@ -3286,13 +3100,8 @@
                 },
                 "url": {
                   "raw": "{{base_url}}verification/bvn/:bvn",
-                  "host": [
-                    "{{base_url}}verification"
-                  ],
-                  "path": [
-                    "bvn",
-                    ":bvn"
-                  ],
+                  "host": ["{{base_url}}verification"],
+                  "path": ["bvn", ":bvn"],
                   "variable": [
                     {
                       "key": "bvn",
@@ -3320,17 +3129,8 @@
                     "url": {
                       "raw": "https://adjutor.lendsqr.com/v2/verification/bvn/:bvn",
                       "protocol": "https",
-                      "host": [
-                        "adjutor",
-                        "lendsqr",
-                        "com"
-                      ],
-                      "path": [
-                        "v2",
-                        "verification",
-                        "bvn",
-                        ":bvn"
-                      ],
+                      "host": ["adjutor", "lendsqr", "com"],
+                      "path": ["v2", "verification", "bvn", ":bvn"],
                       "variable": [
                         {
                           "key": "bvn",
@@ -3454,14 +3254,8 @@
                 },
                 "url": {
                   "raw": "{{base_url}}verification/bvn/{{bvn}}/selfies",
-                  "host": [
-                    "{{base_url}}verification"
-                  ],
-                  "path": [
-                    "bvn",
-                    "{{bvn}}",
-                    "selfies"
-                  ]
+                  "host": ["{{base_url}}verification"],
+                  "path": ["bvn", "{{bvn}}", "selfies"]
                 },
                 "description": "This endpoint allows for real-time verification of an individual's Bank Verification Number (BVN) through the comparison of their photograph and facial features with their BVN record, thereby providing an additional layer of security and accuracy in customer information validation.\n\n#### Request Body\n\n**image** \\* ˢᵗʳⁱⁿᵍ  \nURL of the image to be used for comparison.\n\n#### Path Variables\n\n**bvn** \\*  \nBVN of the person whose face is being verified against the image.\n\n#### Response fields\n\n| Field |\n| --- |\n| **match** ᵇᵒᵒˡᵉᵃⁿ  <br>Indicates if a match was found (e.g., _true_) |\n| **similarity** ᶠˡᵒᵃᵗ  <br>The percentage probability that the images compared are similar. The higher the number, the greater the chance of similarity (e.g., _99.95_) |"
               },
@@ -3482,14 +3276,8 @@
                     },
                     "url": {
                       "raw": "{{base_url}}verification/bvn/:bvn/selfies",
-                      "host": [
-                        "{{base_url}}verification"
-                      ],
-                      "path": [
-                        "bvn",
-                        ":bvn",
-                        "selfies"
-                      ],
+                      "host": ["{{base_url}}verification"],
+                      "path": ["bvn", ":bvn", "selfies"],
                       "variable": [
                         {
                           "key": "bvn",
@@ -3604,13 +3392,8 @@
                 "header": [],
                 "url": {
                   "raw": "{{base_url}}creditbureaus/firstcentral/",
-                  "host": [
-                    "{{base_url}}creditbureaus"
-                  ],
-                  "path": [
-                    "firstcentral",
-                    ""
-                  ]
+                  "host": ["{{base_url}}creditbureaus"],
+                  "path": ["firstcentral", ""]
                 },
                 "description": "This request is used to check the CRC database for the credit history of a customer using their BVN.\n\n#### Path Variables\n\n**bvn** \\*  \nBVN of the customer whoses credit history you aim to fetch"
               },
@@ -3622,13 +3405,8 @@
                     "header": [],
                     "url": {
                       "raw": "{{base_url}}creditbureaus/firstcentral/:bvn",
-                      "host": [
-                        "{{base_url}}creditbureaus"
-                      ],
-                      "path": [
-                        "firstcentral",
-                        ":bvn"
-                      ],
+                      "host": ["{{base_url}}creditbureaus"],
+                      "path": ["firstcentral", ":bvn"],
                       "variable": [
                         {
                           "key": "bvn",
@@ -3718,9 +3496,7 @@
         "type": "text/javascript",
         "packages": {},
         "requests": {},
-        "exec": [
-          ""
-        ]
+        "exec": [""]
       }
     },
     {
@@ -3729,16 +3505,14 @@
         "type": "text/javascript",
         "packages": {},
         "requests": {},
-        "exec": [
-          ""
-        ]
+        "exec": [""]
       }
     }
   ],
   "variable": [
     {
       "key": "base_url",
-      "value": "https://adjutor.lendsqr.com/v2"
+      "value": "https://adjutor.lendsqr.com/v2/"
     },
     {
       "key": "auth_token",
